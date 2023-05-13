@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    color: black;
+    align-items: center;
+}
+.navbar li {
+    list-style: none;
+    margin-left: 50px;
+    color: black;
+}
+
+.nav {
+    height: 60px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+button {
+    padding:10px 20px;
+    border-radius: 10px;
+    border-color: #717CFF;
+    font-weight: 700;
+}
+.box2 .container {
+    padding-right: 0;
+}
+.box2 h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.box2 p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+span {
+    color: #717CFF;
+}
+.box2 button {
+    background-color: #717CFF;
+    padding:15px 40px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.box2 p i {
+    font-size: 50px;
+    padding-right: 30px;
+}
+.box3 h1 {
+    font-size: 23px;
+    font-weight: 500;
+    color: #373737;
+}
+.box4 .box5 {
+    background-color: #FAFAFA;
+}
+.box6 h1 {
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.box6 p {
+    line-height: 38px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.box7 img {
+    padding: 30px 31px;
+}
+.box7 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.box7 p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 26px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.box7 a {
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+.box7 .col-3 {
+    margin: 0 30px;
+    width: 344px;
+    height: 351px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+.box7 .col-3:hover {
+    transform: scale(1.1);
+}
+.box8 img {
+    padding: 30px 31px;
+}
+.box8 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+.box8 p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 26px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.box8 a {
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+.box8 .col-3 {
+    margin: 0 30px;
+    width: 344px;
+    height: 351px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+.box8 .col-3:hover {
+    transform: scale(1.1);
+}
+.box9 .col-3 {
+    margin: 0 30px;
+    width: 344px;
+    height: 406px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s ease;
+}
+.box9 .col-3:hover {
+    transform: scale(1.1);
+}
+.box9 p {
+    margin: 28px 23px;
+    font-weight: 900;
+    font-size: 16px;
+    color: #565656;
+}
+.box9 h2 {
+    margin: 0px 23px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.box9 img {
+    width: 100%;
+}
+.box6 button {
+    width: 226px;
+    height: 64;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    background-color: #717CFF;
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box6 button:hover {
+    transform: scale(1.1);
+}
+.box10 .col-5 {
+width: 540px;
+height: 308px;
+margin-left: 30px;
+transition: all 0.5s ease;
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box10 .col-5:hover {
+    transform: scale(1.1);
+}
+.box10 .calendar{
+    display: flex;
+}
+.box10 .calendar .item1 {
+    margin: 29px 0;
+    margin-left: 31px;
+    margin-right: 19px;
+}
+.box10 .calendar .item2 {
+    margin: 29px 0;
+    margin-right: 62px;
+    font-weight: 700;
+    line-height: 37px;
+}
+.box10 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-right: 27px;
+    margin-left: 31px;
+    margin-bottom: 25px;
+    color: #565656;
+}
+.box10 .time {
+    display: flex;
+}
+.box10 a {
+    margin-left: 31px;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+.box10 h3 {
+    margin-right: 28px;
+    font-weight: 900;
+    font-size: 16px;
+}
+.box11 .col-3 {
+    width: 348px;
+    height: 354px;
+    margin-right: 46px;
+}
+.box11 .col-3 img {
+    width: 100%;
+}
+.box11 h2 {
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 27px;
+    margin-bottom: 11px;
+}
+
+.box11 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #565656;
+}
+.box12 h1 {
+    font-weight: 700;
+    font-size: 37px;
+    margin-top: 10px;
+}
+.box12 button {
+    width: 262px;
+    height: 64px;
+    padding: 12px 34px 12px 34px;
+    margin-right: 120px;
+    background-color: #717CFF;
+    color: white;
+    font-size: 22px;
+}
+.box13 .container {
+    background-color: #717CFF;
+    height: 346px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+.box13 p, h3 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+}
+.box13 i {
+    font-size: 30px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 30px;
+}
+.box13 img {
+    margin-bottom: 28px;
+}
+
+.box2 .container, .box3 .container, .box4 .container, .box5 .container, .box6 .container, .box7 .container, .box9 .container, .box10 .container, .box11 .container, .box12 .container, .box13 .container {
+    padding-top: 100px;
+    padding-bottom: 50px
+}
+.box3 .container, .box4 .container, .box9 .container, .box11 .container {
+    background-color: #ecf3f2;
+}
+.box8 .container {
+    padding-bottom: 100px;
+}
